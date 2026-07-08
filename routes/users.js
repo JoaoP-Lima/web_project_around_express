@@ -27,7 +27,7 @@ const users = JSON.parse(data);
 const user = users.find((user) => user._id === req.params.userId)
 
 if(!user) {
- return res.status(404).send({ message: "Card não encontrado "})
+ return res.status(404).send({ message: "Usuário não encontrado"})
 }
 
 res.send(user)

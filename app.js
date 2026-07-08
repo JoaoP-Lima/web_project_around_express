@@ -7,6 +7,10 @@ const cardsRouter = require("./routes/cards");
 
 app.use("/users", usersRouter);
 app.use("/cards", cardsRouter);
+app.use((req, res) => {
+ res.status(404).send({message: "Página não encontrada"})
+
+})
 app.listen(PORT, () => {
   console.log(`App listening at port ${PORT}`);
 });

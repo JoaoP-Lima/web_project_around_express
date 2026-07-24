@@ -1,25 +1,17 @@
 # Tripleten web_project_around_express
 
-Este projeto utiliza **Node.js** e **Express** para criar uma API simples que lê dados de arquivos JSON usando os módulos nativos **fs** e **path**.
+## Descrição 
 
+- API REST desenvolvida com Node.js, Express e MongoDB para gerenciamento de cartões e usuários. O projeto contém atualização de perfil e avatar do usuário, sistema de curtidas em cartões, validação de arquivos com Mongoose e tratamento de erros.
 
 
 ## Tecnologias
 
-- Node.js
-- Express
-- fs
-- path
-- Nodemon
+- *Node.js* - Local de execução JavaScript no Servidor
+- *Express.js* - Framework para criação de API e gerenciar rotas
+- *MongoDB* - Banco de Dados do tipo NoSQL para guardar cartões e usuários
+- *Mongoose* - Utilizado para criar schemas, modelos e validações de documentos 
+- *Nodemon* - Reinicia o servidor automaticamente durante alterações no arquivo
+- *PostMan* - Utlizado para testar os endpoints da API
 
 ---
-
-# Conceitos praticados
-
-- Organização de rotas com `express.Router()`
-- Leitura de arquivos JSON usando `fs.readFile()`
-- Construção de caminhos com `path.join()`
-- Conversão de JSON com `JSON.parse()`
-- Busca de elementos utilizando `Array.find()`
-- Tratamento de erros com códigos HTTP `404` e `500`
-- Estruturação de uma API REST utilizando Express
